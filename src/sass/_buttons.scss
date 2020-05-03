@@ -1,0 +1,73 @@
+.button {
+  padding: 14px;  
+  height: 48px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.enter {
+  position: absolute;  
+  width: 50%;
+  right: 47px;
+  bottom: 57px;
+  margin-top: 10px;
+  background-color: #E0431E;
+  &:hover, 
+  &:focus, 
+  &:active {
+    background: #ce4221;
+    outline: none;
+    color: white;
+  }
+}
+
+.create {
+  position: absolute;  
+  right: 47px;
+  width: 50%;
+  background-color: #E0431E;
+  &:hover, 
+  &:focus, 
+  &:active {
+    background: #ce4221;
+    outline: none;
+    color: white;
+  }
+}
+
+.vk,
+.facebook {
+  margin: 30px 0;
+  width: 100%;
+  &:hover, 
+  &:focus, 
+  &:active {
+    outline: none;
+  }
+}
+
+.vk {
+  background-color: #597DA3;
+}
+
+.facebook {
+  background-color: #3B5998;
+}
+
+.soc {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.disable {
+  background: #EDEEF0;
+  color: #686868;
+  cursor: unset;
+}

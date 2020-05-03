@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PICOM</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./src/img/favicon.ico">
+  <link rel="stylesheet" href="./src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="seo">
+      <h1>Picom</h1>
+    </div>
+    <div class="title">
+      <a href="#" class="logo">
+        <img src="./src/img/logo.svg" alt="Logo">
+      </a>
+    </div>
+
+    <section class="form">
+      <div class="form__account none">
+        <h2 class="form__title">Создать учётную запись</h2>
+        <div class="form__question">
+          <span class="form__question-1">Уже есть учётная запись?</span>
+          <a href="#" class="form__question-2">Войти</a>          
+        </div>
+        <form action="#" method="POST">
+          <input type="text" name="name" id="name" placeholder="Имя*" required><br>
+          <input type="email" name="email" id="email" placeholder="E-mail*" required><br>
+          <input type="password" name="password" id="password" placeholder="Пароль*" required><br>
+          <div class="form__contract"> 
+            <input type="checkbox" name="checkbox" id="checkbox" checked>
+            <label for="checkbox">Я даю согласие на обработку персональных данных, указанных в условиях <a href="#" class="form__contract-text">Пользовательского соглашения</a></label>
+          </div>          
+          <hr>
+          <button type="submit" class="button enter">Создать учётную запись</button>
+        </form>
+      </div>
+
+      <div class="form__login none">
+        <h2 class="form__title">Войти в учётную запись</h2>
+        <div class="form__question">
+          <span class="form__question-1">Нет учётной записи?</span>
+          <a href="#" class="form__question-2">Создать учётную запись</a>          
+        </div>
+        <form action="#" method="POST">
+          <input type="email" name="email" id="email" placeholder="E-mail*" required><br>
+          <input type="password" name="password" id="password" placeholder="Пароль*" required><br>
+          <div class="form__contract"> 
+            <a href="#" class="form__question-2 form__question-2_middle">Забыли пароль?</a>
+            <button type="submit" class="button create">Войти</button>
+          </div>  
+        </form>
+        <hr>
+        <p class="help">или с помощью</p>
+        <button class="button vk"><img class="soc" src="./src/img/vk.svg" alt="">Войти через ВКонтакте</button>
+        <button class="button facebook"><img class="soc" src="./src/img/facebook.svg" alt="">Войти через Facebook</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./src/index.js"></script>
+</body>
+</html>
